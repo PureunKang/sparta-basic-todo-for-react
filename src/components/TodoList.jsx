@@ -12,11 +12,11 @@ const TodoList = () => {
     { id: 10, text: "Write code" },
   ];
   return (
-    <>
+    <div className="todo-list">
       {todos.map((n) => (
         <li key={n.id}>{n.text}</li>
       ))}
-    </>
+    </div>
   );
 };
 export default TodoList;

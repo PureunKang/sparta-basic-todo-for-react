@@ -1,1 +1,8 @@
-
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* 위 5가지 화면 정가운데 정렬 공식 */
+}
